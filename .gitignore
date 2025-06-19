@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+.venv/
+temp_ar_data.xlsx
+AR_data.xlsx 
