@@ -368,7 +368,7 @@ class RAGQueryEngine:
         try:
             api_key = os.getenv("AZURE_OPENAI_API_KEY")
             api_base = os.getenv("AZURE_OPENAI_API_BASE")
-            api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-01")
+            api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2023-03-15-preview")
             deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "gpt-4o")
             if api_key and api_base:
                 self.llm = AzureChatOpenAI(
