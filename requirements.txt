@@ -7,7 +7,7 @@ openpyxl==3.1.2
 langchain==0.1.9
 langchain-openai==0.0.8
 faiss-cpu==1.7.4
-sentence-transformers==2.2.2
+sentence-transformers==2.7.0
 python-dotenv==1.0.1
 zhconv==1.4.3
 requests==2.31.0
